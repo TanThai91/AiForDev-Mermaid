@@ -12,4 +12,14 @@ graph TD
 
   linkStyle default stroke:#666,stroke-width:2px
 
+
+gantt
+  title Kế hoạch làm project
+  dateFormat  YYYY-MM-DD
+  section Phân tích
+  Thu thập yêu cầu   :a1, 2025-08-01, 5d
+  Thiết kế sơ bộ     :a2, after a1, 4d
+  section Phát triển
+  Coding             :b1, 2025-08-10, 10d
+  Test               :b2, after b1, 5d
 ```
