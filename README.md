@@ -12,7 +12,9 @@ graph TD
 
   linkStyle default stroke:#666,stroke-width:2px
 
+```
 
+```mermaid
 gantt
   title Kế hoạch làm project
   dateFormat  YYYY-MM-DD
@@ -22,4 +24,5 @@ gantt
   section Phát triển
   Coding             :b1, 2025-08-10, 10d
   Test               :b2, after b1, 5d
+
 ```
